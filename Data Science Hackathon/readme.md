@@ -1,3 +1,5 @@
+# Data Science Hackathon #
+
 This is a 84 hrs Data Science Hackathon which I have conducted for the fest where in you are expected to use your data science skills to help save a planet from the problems which they are facing. <br>
 
 Here are the links which will direct you to the competition pages of both problem statements.
