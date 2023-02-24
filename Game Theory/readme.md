@@ -35,6 +35,5 @@ Now these 6 members finally reach the place The Valuable Vale where many valuabl
 
 All crew members now bring these resources. Based on the amount of resources they brought, each one of them is ranked with a certain level of position. 
 
-
-
+![alt](https://github.com/16AbhinavReddy/Cepheus-23/blob/main/Game%20Theory/Game%20Theory.png)
 
