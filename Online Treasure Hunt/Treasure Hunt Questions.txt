@@ -1,0 +1,111 @@
+
+                 CP questions for Javascript and other languages
+
+Question 1: Build Array from Permutation
+Problem Statement: Given a zero-based permutation nums (0-indexed), build an array ans of the same length where ans[i] = nums[nums[i]] for each 0 <= i < nums.length and return it. A zero-based permutation nums is an array of distinct integers from 0 to nums.length - 1 (inclusive).
+Link : https://leetcode.com/problems/build-array-from-permutation/
+
+Question 2: Split a String in Balanced Strings
+Proble Statement: Balanced strings are those that have an equal quantity of 'L' and 'R' characters. Given a balanced string s, split it into some number of substrings such that each substring is balanced. Return the maximum number of balanced strings you can obtain.
+Link: https://leetcode.com/problems/split-a-string-in-balanced-strings/
+
+Question 3: Find the Pivot Integer
+Problem Statement: Given a positive integer n, find the pivot integer x such that the sum of all elements between 1 and x inclusively equals the sum of all elements between x and n inclusively.Return the pivot integer x. If no such integer exists, return -1. It is guaranteed that there will be at most one pivot index for the given input.
+Link: https://leetcode.com/problems/find-the-pivot-integer/description/
+
+Question 4: Rings and Rods
+Problem Statement: There are n rings and each ring is either red, green, or blue. The rings are distributed across ten rods labeled from 0 to 9.
+You are given a string rings of length 2n that describes the n rings that are placed onto the rods. Every two characters in rings forms a color-position pair that is used to describe each ring where:
+The first character of the ith pair denotes the ith ring's color ('R', 'G', 'B').
+The second character of the ith pair denotes the rod that the ith ring is placed on ('0' to '9').
+For example, "R3G2B1" describes n == 3 rings: a red ring placed onto the rod labeled 3, a green ring placed onto the rod labeled 2, and a blue ring placed onto the rod labeled 1.
+Return the number of rods that have all three colors of rings on them.
+Link: https://leetcode.com/problems/rings-and-rods/
+
+Question 5: Last Moment Before All Ants Fall Out of a Plank {BRAIN TEASER}
+Problem Statement: We have a wooden plank of the length n units. Some ants are walking on the plank, each ant moves with a speed of 1 unit per second. Some of the ants move to the left, the other move to the right.
+When two ants moving in two different directions meet at some point, they change their directions and continue moving again. Assume changing directions does not take any additional time.
+When an ant reaches one end of the plank at a time t, it falls out of the plank immediately.
+Given an integer n and two integer arrays left and right, the positions of the ants moving to the left and the right, return the moment when the last ant(s) fall out of the plank.
+Link: https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/description/
+
+
+				Corner Test Case Questions
+Question 1: Moving Stones Until Consecutive
+Tag: Brain Teaser, Medium {Not DSA}
+Problem Statement: There are three stones in different positions on the X-axis. You are given three integers a, b, and c, the positions of the stones.
+In one move, you pick up a stone at an endpoint (i.e., either the lowest or highest position stone), and move it to an unoccupied position between those endpoints. Formally, let's say the stones are currently at positions x, y, and z with x < y < z. You pick up the stone at either position x or position z, and move that stone to an integer position k, with x < k < z and k != y.
+The game ends when you cannot make any more moves (i.e., the stones are in three consecutive positions).
+Return an integer array answer of length 2 where:
+answer[0] is the minimum number of moves you can play, and
+answer[1] is the maximum number of moves you can play.
+Link: https://leetcode.com/problems/moving-stones-until-consecutive/description/
+
+Question 2: 
+
+
+                        Medium and Hard Level Questions on DSA
+
+Question 1: Decode Ways II
+Tag: Dynamic Programming, Hard
+Problem Statement: A message containing letters from A-Z can be encoded into numbers using the following mapping:
+
+'A' -> "1"
+'B' -> "2"
+...
+'Z' -> "26"
+To decode an encoded message, all the digits must be grouped then mapped back into letters using the reverse of the mapping above (there may be multiple ways). For example, "11106" can be mapped into:
+
+"AAJF" with the grouping (1 1 10 6)
+"KJF" with the grouping (11 10 6)
+Note that the grouping (1 11 06) is invalid because "06" cannot be mapped into 'F' since "6" is different from "06".
+
+In addition to the mapping above, an encoded message may contain the '*' character, which can represent any digit from '1' to '9' ('0' is excluded). For example, the encoded message "1*" may represent any of the encoded messages "11", "12", "13", "14", "15", "16", "17", "18", or "19". Decoding "1*" is equivalent to decoding any of the encoded messages it can represent.
+
+Given a string s consisting of digits and '*' characters, return the number of ways to decode it.
+
+Since the answer may be very large, return it modulo 109 + 7.
+Link: https://leetcode.com/problems/decode-ways-ii/description/
+
+Question 2: House Robber III
+Tag: Binary Trees, DFS, Dynamic Programming, Medium 
+Problem Statement: The thief has found himself a new place for his thievery again. There is only one entrance to this area, called root.
+
+Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that all houses in this place form a binary tree. It will automatically contact the police if two directly-linked houses were broken into on the same night.
+
+Given the root of the binary tree, return the maximum amount of money the thief can rob without alerting the police.
+Link: https://leetcode.com/problems/house-robber-iii/
+
+Question 3: Maximum Total Beauty of the Gardens
+Tag: Greedy, Hard
+Problem Statement: Alice is a caretaker of n gardens and she wants to plant flowers to maximize the total beauty of all her gardens.
+You are given a 0-indexed integer array flowers of size n, where flowers[i] is the number of flowers already planted in the ith garden. Flowers that are already planted cannot be removed. You are then given another integer newFlowers, which is the maximum number of flowers that Alice can additionally plant. You are also given the integers target, full, and partial.
+A garden is considered complete if it has at least target flowers. The total beauty of the gardens is then determined as the sum of the following:
+The number of complete gardens multiplied by full.
+The minimum number of flowers in any of the incomplete gardens multiplied by partial. If there are no incomplete gardens, then this value will be 0.
+Return the maximum total beauty that Alice can obtain after planting at most newFlowers flowers.
+Link: https://leetcode.com/problems/maximum-total-beauty-of-the-gardens/description/
+
+Question 4: Best Team With No Conflicts
+Tag: Sorting, Medium
+Problem Statement: You are the manager of a basketball team. For the upcoming tournament, you want to choose the team with the highest overall score. The score of the team is the sum of scores of all the players in the team. However, the basketball team is not allowed to have conflicts. A conflict exists if a younger player has a strictly higher score than an older player. A conflict does not occur between players of the same age. Given two lists, scores and ages, where each scores[i] and ages[i] represents the score and age of the ith player, respectively, return the highest overall score of all possible basketball teams.
+Link: https://leetcode.com/problems/best-team-with-no-conflicts/
+
+Question 5: Redundant Connection II
+Tag: Graphs, DFS, Hard
+Problem Statement: In this problem, a rooted tree is a directed graph such that, there is exactly one node (the root) for which all other nodes are descendants of this node, plus every node has exactly one parent, except for the root node which has no parents.
+The given input is a directed graph that started as a rooted tree with n nodes (with distinct values from 1 to n), with one additional directed edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed.
+The resulting graph is given as a 2D-array of edges. Each element of edges is a pair [ui, vi] that represents a directed edge connecting nodes ui and vi, where ui is a parent of child vi.
+Return an edge that can be removed so that the resulting graph is a rooted tree of n nodes. If there are multiple answers, return the answer that occurs last in the given 2D-array.
+Link: https://leetcode.com/problems/redundant-connection-ii/
+
+Question 6: Car Fleet II
+Tag: Stack, Hard
+Problem Statement: There are n cars traveling at different speeds in the same direction along a one-lane road. You are given an array cars of length n, where cars[i] = [position_i, speed_i] represents:
+position_i is the distance between the ith car and the beginning of the road in meters. It is guaranteed that position_i < position_(i+1).
+speed_i is the initial speed of the ith car in meters per second.
+For simplicity, cars can be considered as points moving along the number line. Two cars collide when they occupy the same position. Once a car collides with another car, they unite and form a single car fleet. The cars in the formed fleet will have the same position and the same speed, which is the initial speed of the slowest car in the fleet.
+Return an array answer, where answer[i] is the time, in seconds, at which the ith car collides with the next car, or -1 if the car does not collide with the next car. Answers within 10-5 of the actual answers are accepted.
+Link: https://leetcode.com/problems/car-fleet-ii/
+
+

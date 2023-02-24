@@ -1,0 +1,105 @@
+Q 1) A string word array with an index of zero is provided to you. There are only lowercase English letters in each string. In any group of words, a letter never appears more than once.
+
+When the set of letters in s2 can be created from the set of letters in s1 using any of the following methods, two strings s1 and s2 are said to be related 
+by
+
+
+1. Adding just one letter to the existing s1 letter set.
+2. Removing just one letter from the alphabetical list of s1 letters.
+3. Putting any letter, including itself, in place of exactly one letter from the set of letters in s1.
+
+One or more groups that do not intersect can be created from the array words. 
+Any one of the following conditions applies if a string belongs to a group:
+
+
+1. At least one other string in the group is connected to it.
+2. It is the single string in the collection.
+
+Keep in mind that the strings in words should be organised into groups such that no two strings from the same group can be joined. It may be demonstrated that each such arrangement is distinctive.
+
+Send back a 2-dimensional array ans with the following criteria:
+
+Words can be broken into a maximum of ans[0] groups, with ans[1] indicating the size of the largest group.
+
+
+link : https://leetcode.com/problems/groups-of-strings/
+
+
+
+Q 2) You are given an undirected graph defined by an integer n, the number of nodes, and a 2D integer array edges, the edges in the graph, where edges[i] = [ui, vi] indicates that there is an undirected edge between ui and vi. You are also given an integer array queries.
+Let incident(a, b) be defined as the number of edges that are connected to either node a or b.
+The answer to the jth query is the number of pairs of nodes (a, b) that satisfy both of the following conditions:
+a < b
+incident(a, b) > queries[j]
+Return an array answers such that answers.length == queries.length and answers[j] is the answer of the jth query.
+Note that there can be multiple edges between the same two nodes.
+
+link : https://leetcode.com/problems/count-pairs-of-nodes/
+
+
+Q 3) Rakesh visits Suresh, a classmate of his. Suresh's apartment number is n, as Rakesh is aware.
+
+In Suresh's home, there is only one entrance, and the distribution of the apartments is as follows: the first floor has two apartments, while the subsequent floors each have x apartments. First-floor apartments are numbered one through nine. For instance, the first floor's apartments have the numbers 1 and 2, the second floor's apartments have the numbers 3 to (x+2), the third floor's apartments have the numbers (x+3) to (2x+2), and so on.
+
+It's up to you to determine which floor Suresh resides on. Count on the home always being tall enough to accommodate at least n units.
+
+You must respond to t separate test scenarios.
+
+link : https://codeforces.com/problemset/problem/1426/A
+
+
+Q 4) Playing a game is Storm and Antina. Each participant begins the game with a single fixed positive number that remains the same throughout the whole game. Antina is given number b, while Storm is given number a. In addition, they have a pile of n stones. The players take turns moving, and Storm makes the first move. A player making a move shall remove the number of stones from the pile that are the greatest common factor of the fixed number he has received and the number of stones still in the pile. When a player is unable to take the necessary amount of stones, they lose (i. e. the heap has strictly less stones left than one needs to take).
+
+Determine the winner of the contest using the given numbers a, b, and n.
+
+link : https://codeforces.com/problemset/problem/119/A
+
+Q 5) The holiday season is over. Naveen was able to enrol in the university of her dreams, which is situated in the town of Pavlopolis, with the aid of the hacker Lilly. It is well knowledge that during their time in college, students are housed on campus. As a result, Naveen was forced to relocate to Pavlopolis from Vikopolis. As a result, Lilly was abandoned in the peaceful town of Vikopolis. The boredom almost caused him to experience sadness.
+
+To help himself unwind a bit, Lilly devised an assignment. He takes two integers A and B, and after computing their greatest common factor, he divides them by their respective factorials. The hacker's formal goal is to determine GCD(A!, B!). The factorial of an integer x is generally known to be the sum of all positive integers less than or equal to x. Consequently, x! = 1 2 3 (x - 1) x. For instance, 4! = 1234 = 24. Remember that the greatest positive integer q that divides both x and y (without a remainder) is GCD(x, y).
+
+Lilly has developed very effective problem-solving skills. You can handle it without making it worse, don't you?
+
+link : https://codeforces.com/problemset/problem/822/A
+
+Q 6) Last night, there was a burglary at an electronics store.
+
+Every keyboard that was in stock yesterday was given a number starting with some integer, starting with x. For instance, if x=4 and there were three keyboards in the store, the devices would have the indices 4, 5, and 6. Similarly, if x=10 and there were seven, the keyboards would have the indices 10, 11, 12, 13, 14, and 15.
+
+After the heist, only n keyboards with the indices a1, a2,..., an are left. Determine the smallest number of keyboards that might have been taken. Both x and the quantity of keyboards in the shop before to the crime are forgotten by the personnel.
+
+link : https://codeforces.com/problemset/problem/1041/A
+
+
+Q 7) In Polygon, the user's first name prefix and last name prefix are often concatenated in that sequence to generate user logins. Any prefix may be the whole name, and each prefix must not be empty. Every user has a variety of potential logins available to them.
+
+A user's first and last names are provided. Return the earliest login they can find in alphabetical order (regardless of other potential Polygon users).
+
+Remember that a prefix is a substring that appears at the start of a string, so "a", "ab", "abc," etc. are prefixes of the string "abcdef," while "b" and "bc" are not. If an is a prefix of b or if a and b coincide up to a certain position, and a has a letter that is alphabetically earlier than the corresponding letter in b, then the string an is alphabetically earlier than the string b: "a" and "ab" are alphabetically earlier than "ac," but "b" and "ba" are alphabetically later than "ac."
+
+link : https://codeforces.com/problemset/problem/909/A
+
+Q 8) There was a biology lesson today at the Kingdom of Kremland's scientific lyceum. The genomes were the subject of the lesson. The genome will be known as the string "ACTG."
+
+Because Tharun found sitting in class to be extremely dull, the teacher gave him a task: determine the fewest operations that must be performed on a given uppercase letter string (s) with a minimum length of 4 in order for the genome to appear in it as a substring. Any letter in the string s can be changed with the subsequent or preceding letter of the alphabet in a single operation. For the letter "D," for instance, the letter "C" will come before "E," and vice versa.In this problem, we assume that the letter "A" will be followed by the letter "Z" and the letter "B," and that the letter "Z" will be followed by the letter "Y" and the letter "A."
+
+Q 9) Assist Tharun in solving the assignment his teacher handed him.
+
+A string an is a substring of a string b if a can be created from b by deleting a certain number of characters (potentially zero or all) from the beginning and a certain number of characters (possibly zero or all) from the end.
+
+link : https://codeforces.com/problemset/problem/1151/A
+
+Q 10) In a row, there are n rectangles. Either leave each rectangle alone or rotate it 90 degrees. If you turn a rectangle, the width and the height will be the same. You should be aware that you can rotate any quantity of rectangles, whether that is all of them or none at all. The arrangement of the rectangles cannot be changed.
+
+See whether there is a method to arrange the rectangles in descending height order. To put it another way, after all the rotations, the height of each rectangle must not be higher than the height of the rectangle before it (if it is such).
+
+link : https://codeforces.com/problemset/problem/1008/B
+
+Q 11) Little Laksha enjoys using his smartphone to listen to music. Because the smartphone has limited memory, Laksha uses the popular social network InTalk to listen to his favourite music.
+
+The song takes a long time to download because the internet in Ekaterinozavodsk is not so fast. But Laksha can't wait any longer. T seconds make up the length of the song. Lesha plays the first S seconds of the song that she downloaded. Laksha starts the song over from the beginning as soon as the playback reaches the portion that hasn't yet been downloaded; the loaded portion of the song stays on his phone and the download continues from there. This process continues until the entire song has been downloaded and Laksha has finished listening to it. The Internet enables you to download q - 1 seconds of the track for every q seconds of real time.
+
+Inform Laksha of the number of times he will begin the song, except the first start.
+
+link : https://codeforces.com/problemset/problem/569/A
+

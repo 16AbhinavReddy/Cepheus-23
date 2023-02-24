@@ -1,0 +1,13 @@
+https://leetcode.com/problems/game-of-life/
+
+
+Welcome to the fascinating world of "The Game of Life"!
+
+Imagine a grid made up of tiny cells, each with a life of its own. Some are alive (represented by 1s), and some are dead (represented by 0s). But, these little cells don't live in isolation. They interact with their eight neighboring cells and follow four simple rules to determine their fate.
+
+    If a live cell has fewer than two live neighbors, it dies from loneliness.
+    If a live cell has two or three live neighbors, it lives on to see another day.
+    If a live cell has more than three live neighbors, it dies from overcrowding.
+    If a dead cell has exactly three live neighbors, it comes back to life, ready to thrive!
+
+So, buckle up and get ready for a wild ride as these cells dance to the beat of life and death. It's time to see what the next generation will look like!

@@ -1,0 +1,2 @@
+Gap between [00:00, 00:00] is 0. Otherwise it could be easily treated as duplicate time points.
+Gap between [00:00, 23:59] is 1. Intuitively, I thought that was 1439, because the order should be sensitive.

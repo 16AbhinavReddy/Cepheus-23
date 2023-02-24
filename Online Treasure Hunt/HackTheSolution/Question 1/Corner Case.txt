@@ -1,0 +1,3 @@
+Input: m = 1, n = 1
+Output: 0
+Possible Answer from code: 1
