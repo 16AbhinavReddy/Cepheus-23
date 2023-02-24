@@ -1,0 +1,11 @@
+# Problem Statement
+
+There is a unique planet, Arrakis among all other planets which has no life. However, unbeknownst to any planet, there are eggs of a certain species present here. These eggs will break after 2000 years and will give birth to creatures known as Jeopardisites which can travel across different planets with the help of their spacelets (special cells present in their body that help them travel in space).
+
+But there are a limited number of spacelets present in them. Spacelets are highly essential for these creatures to survive. In order to replenish them later, they need the Fe content present in Haemoglobin. This helps them to make their own spacelets inside their body. They also need blood for their nutrition. These creatures use thermal imaging technology. So, whenever they sense a warm-blooded creature, they will try to attack it. So naturally humans tend to kill them when they attack. But there’s a problem here! Whenever a Jeopardisite dies, this leads to the creation of a dangerous virus. As more Jeopardisites die, the virus spreads and its ‘strength’ grows. Based on this ‘strength,’ more time is needed for scientists to develop a vaccine for it.
+
+A neighboring planet, Caladan sent a manned mission to this planet to explore its habitat. The team of astronauts stumbled upon a nest of Jeopardisite eggs. They conduct tests and report the information back home. The news that there is life on Arrakis, wreaks havoc on Caladan. The top scientific minds from all over the planet are summoned. You are an engineer working on the team that is estimating the damage caused, God forbid this virus grows.
+
+After all the hard work and research the scientists have put in, they have finally found the recipe to make the drug needed to overcome the virus. In order to make this drug, Elixoria bacteria is needed. But this bacteria is found only on a location in that planet where we cannot find the bacteria directly. It is present with many other bacterial organisms.
+
+You are provided with the data about different bacteria present in the location. Now with the mixture of bacteria the scientists have in their hands, help them to separate each bacteria from the mixture.
