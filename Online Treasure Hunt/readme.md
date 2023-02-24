@@ -7,3 +7,8 @@ You can find the links to the competition pages here.
   <strong> Code Golfing </strong> : https://www.hackerrank.com/code-golfingcoders-infinity-war
 <li> 
   <strong> Least Language Used </strong> : https://www.hackerrank.com/coders-infinity-war-round-1-1676016762
+  
+  
+  
+  
+ ![alt](https://github.com/16AbhinavReddy/Cepheus-23/blob/main/Online%20Treasure%20Hunt/Treasure%20Hunt%20Event.jpeg)
